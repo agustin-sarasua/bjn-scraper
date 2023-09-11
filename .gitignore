@@ -1,0 +1,75 @@
+# Python and Virtual Environment Files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+
+chrome_driver/
+data/
+merged_data.jsonl
+notebooks/
+parsed_data/
+
+.venv/
+.env
+secret.key
+
+# VSCode-specific files
+.vscode/
+.vscode/settings.json
+.vscode/*.code-workspace
+
+# Poetry
+__pypackages__/
+poetry.lock
+poetry.toml
+
+# Docker
+.docker/
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+
+# Compiled Python files
+*.pyc
+
+# macOS metadata
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Editor-specific directories
+.idea/
+*.sublime-workspace
+*.komodoproject
+*.komodotools
+
+# Compiled binary files
+*.dll
+*.so
+*.dylib
+
+# Test coverage reports
+htmlcov/
+
+# Test/pytest cache
+pytest_cache/
+
+# PyCharm files
+.idea/
+
+# MyPy cache
+.mypy_cache/
+
+# Python Profiling
+profiling/
+
+# Logs
+logs/
